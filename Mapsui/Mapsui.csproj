@@ -1,28 +1,19 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
-    <TargetFrameworks>netstandard2.0</TargetFrameworks>
-    <TargetFrameworks Condition="'$(SolutionName)' != 'Mapsui.Mac.Legacy'">$(TargetFrameworks);net6.0</TargetFrameworks>
-    <Configurations>Release;Debug</Configurations>
-    <!--Revert TreatWarningsAsErrors to false because of vague build error on server -->
-    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
-  </PropertyGroup>
+	<PropertyGroup>
+		<TargetFrameworks>net6.0-windows10.0.17763.0</TargetFrameworks>
+		<Configurations>Release;Debug</Configurations>
+		<!--Revert TreatWarningsAsErrors to false because of vague build error on server -->
+		<TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+	</PropertyGroup>
 
-  <ItemGroup>
-    <EmbeddedResource Include="Resources\Images\Pin.svg" />
-  </ItemGroup>
-	 
-  <ItemGroup>
-    <PackageReference Include="NeoSmart.AsyncLock" />
-    <PackageReference Include="System.Linq.Async" />
-  </ItemGroup>
-  
-  <ItemGroup Condition="'$(TargetFramework)' == 'netstandard2.0'">
-    <PackageReference Include="Microsoft.Bcl.AsyncInterfaces" />
-  </ItemGroup>
+	<ItemGroup>
+		<EmbeddedResource Include="Resources\Images\Pin.svg" />
+	</ItemGroup>
 
-  <PropertyGroup>
-    <DebugType>portable</DebugType>
-  </PropertyGroup>
+	<ItemGroup>
+		<PackageReference Include="NeoSmart.AsyncLock" />
+		<PackageReference Include="System.Linq.Async" />
+	</ItemGroup>
 
 </Project>

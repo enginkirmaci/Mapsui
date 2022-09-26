@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32825.248
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mapsui", "..\Mapsui\Mapsui.csproj", "{8C11DCA0-9453-434A-9F12-FE2592E78E7F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mapsui.UI.Wpf", "..\Mapsui.UI.Wpf\Mapsui.UI.Wpf.csproj", "{6FC47FAA-9EB6-44D8-8F96-8F57BBF49814}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mapsui.Rendering.Skia", "..\Mapsui.Rendering.Skia\Mapsui.Rendering.Skia.csproj", "{013D634C-CBAF-496B-9BAC-1FC438B9A462}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mapsui.Nts", "..\Mapsui.Nts\Mapsui.Nts.csproj", "{35338854-9970-4FA4-A9B1-8AFF18C73B95}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Mapsui.UI.Shared", "..\Mapsui.UI.Shared\Mapsui.UI.Shared.shproj", "{239F2B0D-13CB-4BCF-83BF-F52D696A47B7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8C11DCA0-9453-434A-9F12-FE2592E78E7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C11DCA0-9453-434A-9F12-FE2592E78E7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C11DCA0-9453-434A-9F12-FE2592E78E7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C11DCA0-9453-434A-9F12-FE2592E78E7F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6FC47FAA-9EB6-44D8-8F96-8F57BBF49814}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FC47FAA-9EB6-44D8-8F96-8F57BBF49814}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FC47FAA-9EB6-44D8-8F96-8F57BBF49814}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FC47FAA-9EB6-44D8-8F96-8F57BBF49814}.Release|Any CPU.Build.0 = Release|Any CPU
+		{013D634C-CBAF-496B-9BAC-1FC438B9A462}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{013D634C-CBAF-496B-9BAC-1FC438B9A462}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{013D634C-CBAF-496B-9BAC-1FC438B9A462}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{013D634C-CBAF-496B-9BAC-1FC438B9A462}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35338854-9970-4FA4-A9B1-8AFF18C73B95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35338854-9970-4FA4-A9B1-8AFF18C73B95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35338854-9970-4FA4-A9B1-8AFF18C73B95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35338854-9970-4FA4-A9B1-8AFF18C73B95}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BF0A9827-C4F7-47C9-9B10-E463657A13F6}
+	EndGlobalSection
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		..\Mapsui.UI.Shared\Mapsui.UI.Shared.projitems*{239f2b0d-13cb-4bcf-83bf-f52d696a47b7}*SharedItemsImports = 13
+		..\Mapsui.UI.Shared\Mapsui.UI.Shared.projitems*{6fc47faa-9eb6-44d8-8f96-8f57bbf49814}*SharedItemsImports = 5
+	EndGlobalSection
+EndGlobal
