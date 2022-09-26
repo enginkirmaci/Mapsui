@@ -1,0 +1,7 @@
+﻿<Project>
+  <ItemGroup>
+    <PackageVersion Include="NetTopologySuite">
+      <Version>2.4.0</Version>
+    </PackageVersion>
+  </ItemGroup>
+</Project>

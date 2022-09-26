@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net6.0-windows</TargetFramework>
+		<UseWpf>true</UseWpf>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+	</PropertyGroup>
+ 
+	<ItemGroup>
+		<PackageReference Include="BruTile" Version="5.0" />
+		<PackageReference Include="SkiaSharp" Version="2.88.2" />
+		<PackageReference Include="SkiaSharp.Views.WPF" Version="2.88.2" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\Mapsui.Rendering.Skia\Mapsui.Rendering.Skia.csproj" />
+		<ProjectReference Include="..\Mapsui\Mapsui.csproj" />
+	</ItemGroup>
+
+	<Import Project="..\Mapsui.UI.Shared\Mapsui.UI.Shared.projitems" Label="Shared" />
+
+</Project>

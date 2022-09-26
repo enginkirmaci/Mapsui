@@ -2,12 +2,19 @@
 
 	<PropertyGroup>
 		<TargetFrameworks>net6.0-windows10.0.17763.0</TargetFrameworks>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
 	</PropertyGroup>
+
+	<ItemGroup>
+		<Compile Remove="D:\Repos\ThirdParty\Mapsui\/InitProperty.cs" />
+		<Compile Remove="D:\Repos\ThirdParty\Mapsui\/Nullable.cs" />
+	</ItemGroup>
 
 	<ItemGroup>
 		<PackageReference Include="NetTopologySuite" />
 	</ItemGroup>
- 
+
 	<ItemGroup>
 		<ProjectReference Include="..\Mapsui\Mapsui.csproj" />
 	</ItemGroup>

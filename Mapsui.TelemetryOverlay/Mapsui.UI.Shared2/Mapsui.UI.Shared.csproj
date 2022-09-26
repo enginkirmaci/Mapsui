@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFrameworks>net6.0-windows10.0.17763.0</TargetFrameworks> 
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<LangVersion>10.0</LangVersion>
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <ProjectReference Include="..\Mapsui.Rendering.Skia\Mapsui.Rendering.Skia.csproj" />
+	  <ProjectReference Include="..\Mapsui\Mapsui.csproj" />
+	</ItemGroup>
+</Project>

@@ -1,21 +1,27 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
 
-  <PropertyGroup>
+	<PropertyGroup>
 		<TargetFrameworks>net6.0-windows10.0.17763.0</TargetFrameworks>
 		<UseWpf>true</UseWpf>
-  </PropertyGroup>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+	</PropertyGroup>
 
-  <ItemGroup>
-    <PackageReference Include="BruTile" />
-    <PackageReference Include="SkiaSharp" />
-    <PackageReference Include="SkiaSharp.Views.WPF" />
-  </ItemGroup>
+	<ItemGroup>
+		<Compile Remove="D:\Repos\ThirdParty\Mapsui\/InitProperty.cs" />
+		<Compile Remove="D:\Repos\ThirdParty\Mapsui\/Nullable.cs" />
+	</ItemGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\Mapsui.Rendering.Skia\Mapsui.Rendering.Skia.csproj" />
-    <ProjectReference Include="..\Mapsui\Mapsui.csproj" />
-  </ItemGroup>
+	<ItemGroup>
+		<PackageReference Include="BruTile" />
+		<PackageReference Include="SkiaSharp" />
+		<PackageReference Include="SkiaSharp.Views.WPF" />
+	</ItemGroup>
 
-  <Import Project="..\Mapsui.UI.Shared\Mapsui.UI.Shared.projitems" Label="Shared" />
+	<ItemGroup>
+		<ProjectReference Include="..\Mapsui.Rendering.Skia\Mapsui.Rendering.Skia.csproj" />
+		<ProjectReference Include="..\Mapsui.TelemetryOverlay\Mapsui.UI.Shared\Mapsui.UI.Shared.csproj" />
+		<ProjectReference Include="..\Mapsui\Mapsui.csproj" />
+	</ItemGroup>
 
 </Project>
